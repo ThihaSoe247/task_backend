@@ -29,8 +29,9 @@ mongoose
 
 // Middleware
 const allowedOrigins = [
-  "http://localhost:5173", // development
-  "https://task-frontend-7jn9mw54s-thiha-soes-projects-42b1b68e.vercel.app", // production
+  "http://localhost:5173",
+  "https://task-frontend-7jn9mw54s-thiha-soes-projects-42b1b68e.vercel.app",
+  "https://task-frontend-ten-pi.vercel.app", // <== add this here
 ];
 
 app.use(
